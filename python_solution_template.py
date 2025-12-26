@@ -258,7 +258,7 @@ def test_solution():
     
     # Test 9: Tricky Case - Alternating positive/negative
     # Why: Tests decision making at each step
-    # Expected: 5 (subarray [5])
+    # Expected: 9 (subarray [5, -3, 5, -3, 5])
     test9_input = [5, -3, 5, -3, 5, -10]
     test9_expected = 9  # [5, -3, 5, -3, 5]
     test9_result = sol.maxSubArray(test9_input)
