@@ -221,6 +221,21 @@ Professional Code Checklist:
 
 # Main execution
 if __name__ == "__main__":
-    print("Running tests...")
-    test_solution()
-    print("\nTemplate ready to customize for your problem!")
+    print("="*60)
+    print("QUICK REFERENCE TEMPLATE")
+    print("="*60)
+    print()
+    print("This is a TEMPLATE file - not meant to be run directly!")
+    print()
+    print("To use this template:")
+    print("1. Copy this file: cp QUICK_REFERENCE_TEMPLATE.py my_problem.py")
+    print("2. Replace all [...] placeholders with your actual code")
+    print("3. Fill in the Plan, Reasoning, and Test sections")
+    print("4. Implement your solution in the Solution class")
+    print("5. Run your customized file")
+    print()
+    print("For a working example, run: python3 python_solution_template.py")
+    print("="*60)
+    
+    # Uncomment the line below after filling in your solution
+    # test_solution()
